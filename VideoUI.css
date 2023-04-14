@@ -17,4 +17,21 @@
   flex-direction: column;
   align-items: center;
   min-height: 100%;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.video-container-custom-video video {
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background-color: #202225;
+}
+
+.custom-video-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
