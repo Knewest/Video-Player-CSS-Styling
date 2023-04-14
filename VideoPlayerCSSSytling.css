@@ -1,4 +1,4 @@
-.video-container {
+.nonMediaAttachmentItem-1e7YaR {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@ video {
   color: #b9bbbe;
 }
 
-button {
+.controls-container button {
   background-color: transparent;
   border: none;
   color: #b9bbbe;
@@ -37,11 +37,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.controls-container button:hover {
   color: #dcddde;
 }
 
-.time-slider {
+.controls-container .time-slider {
   width: 100%;
   height: 3px;
   background-color: #72767d;
@@ -49,7 +49,7 @@ button:hover {
   -webkit-appearance: none;
 }
 
-.time-slider::-webkit-slider-thumb {
+.controls-container .time-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 10px;
   height: 10px;
@@ -58,7 +58,7 @@ button:hover {
   cursor: pointer;
 }
 
-.time-slider::-moz-range-thumb {
+.controls-container .time-slider::-moz-range-thumb {
   width: 10px;
   height: 10px;
   background-color: #dcddde;
@@ -66,7 +66,7 @@ button:hover {
   cursor: pointer;
 }
 
-.volume-slider {
+.controls-container .volume-slider {
   width: 50px;
   height: 3px;
   background-color: #72767d;
@@ -74,7 +74,7 @@ button:hover {
   -webkit-appearance: none;
 }
 
-.volume-slider::-webkit-slider-thumb {
+.controls-container .volume-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 10px;
   height: 10px;
@@ -83,7 +83,7 @@ button:hover {
   cursor: pointer;
 }
 
-.volume-slider::-moz-range-thumb {
+.controls-container .volume-slider::-moz-range-thumb {
   width: 10px;
   height: 10px;
   background-color: #dcddde;
