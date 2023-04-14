@@ -2,32 +2,6 @@
   position: relative;
 }
 
-.custom-video-controls {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.6);
-  transform: translateY(100%);
-  transition: transform 0.3s ease;
-}
-
-.custom-video-controls.show-controls {
-  transform: translateY(0%);
-}
-
-.custom-video:hover .custom-video-controls,
-.custom-video-controls:hover,
-.custom-video:active .custom-video-controls,
-.custom-video-controls:active,
-.video-container .custom-video[paused] .custom-video-controls {
-  transform: translateY(0%);
-}
-
 .container-2sjPya {
   display: flex;
   flex-direction: column;
