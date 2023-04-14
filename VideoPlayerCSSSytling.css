@@ -123,3 +123,10 @@ video {
   align-items: center;
   min-height: 100%;
 }
+
+.container-2sjPya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
