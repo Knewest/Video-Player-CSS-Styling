@@ -30,12 +30,15 @@
 
 .container-2sjPya {
   position: relative;
+ min-height: auto;
 }
 
 .message-2qRu38 {
   position: relative;
+ min-height: auto;
 }
 
 .cozy-3raOZG {
+position: relative;
   min-height: auto;
 }
