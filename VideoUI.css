@@ -63,7 +63,7 @@
   min-height: 100%;
 }
 
-.video-container custom-video {
+.video-container-custom-video {
   display: flex;
   flex-direction: column;
   align-items: center;
