@@ -21,6 +21,9 @@
 }
 
 .custom-video:hover .custom-video-controls,
-.custom-video-controls:hover {
+.custom-video-controls:hover,
+.custom-video:active .custom-video-controls,
+.custom-video-controls:active,
+.video-container .custom-video[paused] .custom-video-controls {
   transform: translateY(0%);
 }
