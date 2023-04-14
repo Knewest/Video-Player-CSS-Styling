@@ -90,3 +90,21 @@ video {
   border-radius: 50%;
   cursor: pointer;
 }
+
+.controls-container {
+  background-color: rgba(47, 49, 54, 0.95);
+}
+
+.controls-container .time-slider::-webkit-slider-thumb,
+.controls-container .volume-slider::-webkit-slider-thumb {
+  background-color: #7289da;
+}
+
+.controls-container .time-slider::-moz-range-thumb,
+.controls-container .volume-slider::-moz-range-thumb {
+  background-color: #7289da;
+}
+
+.controls-container button:hover {
+  color: #7289da;
+}
