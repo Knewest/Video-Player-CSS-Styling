@@ -12,6 +12,7 @@ video {
   height: auto;
   border-radius: 3px;
   margin-bottom: 5px;
+  display: block;
 }
 
 .controls-container {
