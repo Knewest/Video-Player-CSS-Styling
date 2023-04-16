@@ -111,12 +111,6 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 5px;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.video-container-custom-video:hover .custom-video-controls {
-  opacity: 1;
 }
 
 /* Fullscreen styles */
