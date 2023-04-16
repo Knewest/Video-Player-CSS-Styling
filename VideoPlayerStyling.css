@@ -121,7 +121,7 @@
 
 /* Fullscreen styles */
 .video-container-custom-video:-webkit-full-screen video {
-  height: calc(100% - 30px);
+  height: 100%;
   width: auto;
   object-fit: contain;
 }
@@ -132,7 +132,7 @@
 }
 
 .video-container-custom-video:-moz-full-screen video {
-  height: calc(100% - 30px);
+  height: 100%;
   width: auto;
   object-fit: contain;
 }
@@ -143,23 +143,23 @@
 }
 
 .video-container-custom-video:fullscreen video {
-height: calc(100% - 30px);
-width: auto;
-object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .video-container-custom-video:fullscreen .custom-video-controls {
-position: fixed;
-bottom: 0;
+  position: fixed;
+  bottom: 0;
 }
 
 .video-container-custom-video:-ms-fullscreen video {
-height: calc(100% - 30px);
-width: auto;
-object-fit: contain;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
 }
 
 .video-container-custom-video:-ms-fullscreen .custom-video-controls {
-position: fixed;
-bottom: 0;
+  position: fixed;
+  bottom: 0;
 }
