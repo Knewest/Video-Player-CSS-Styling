@@ -111,6 +111,8 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 5px;
+  bottom: -40px;
+  transition: bottom 0.5s;
 }
 
 /* Fullscreen styles */
