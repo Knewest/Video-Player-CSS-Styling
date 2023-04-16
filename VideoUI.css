@@ -37,7 +37,7 @@
 }
 
 .video-container-custom-video:-moz-full-screen video {
-  height: calc(100% - 50px);
+  height: calc(100%);
   width: auto;
   object-fit: contain;
 }
