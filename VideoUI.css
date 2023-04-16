@@ -1,177 +1,3 @@
-.nonMediaAttachmentsContainer-3s1dgm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100%;
-}
-
-.container-2sjPya {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100%;
-}
-
-.video-container-custom-video {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100%;
-  width: 100%;
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.video-container-custom-video video {
-  width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  background-color: #202225;
-}
-
-.custom-video-controls {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.video-container-custom-video:-webkit-full-screen {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-container-custom-video:-webkit-full-screen video {
-  max-height: calc(100% - 50px);
-  width: auto;
-}
-
-.video-container-custom-video:-moz-full-screen {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-container-custom-video:-moz-full-screen video {
-  max-height: calc(100% - 50px);
-  width: auto;
-}
-
-.video-container-custom-video:fullscreen {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-container-custom-video:fullscreen video {
-  max-height: calc(100% - 50px);
-  width: auto;
-}
-
-.video-container-custom-video:-ms-fullscreen {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-container-custom-video:-ms-fullscreen video {
-  max-height: calc(100% - 50px);
-  width: auto;
-}
-
-.video-container-custom-video:-webkit-full-screen,
-.video-container-custom-video:-moz-full-screen,
-.video-container-custom-video:fullscreen,
-.video-container-custom-video:-ms-fullscreen {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-container-custom-video:-webkit-full-screen video,
-.video-container-custom-video:-moz-full-screen video,
-.video-container-custom-video:fullscreen video,
-.video-container-custom-video:-ms-fullscreen video {
-  max-height: calc(100% - 50px);
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.video-container-custom-video {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.video-container-custom-video video {
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.video-container-custom-video:-webkit-full-screen,
-.video-container-custom-video:-moz-full-screen,
-.video-container-custom-video:fullscreen,
-.video-container-custom-video:-ms-fullscreen {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-container-custom-video:-webkit-full-screen video,
-.video-container-custom-video:-moz-full-screen video,
-.video-container-custom-video:fullscreen video,
-.video-container-custom-video:-ms-fullscreen video {
-  max-height: calc(100% - 50px);
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.video-container-custom-video {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.video-container-custom-video video {
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.video-container-custom-video:-webkit-full-screen,
-.video-container-custom-video:-moz-full-screen,
-.video-container-custom-video:fullscreen,
-.video-container-custom-video:-ms-fullscreen {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-container-custom-video:-webkit-full-screen video,
-.video-container-custom-video:-moz-full-screen video,
-.video-container-custom-video:fullscreen video,
-.video-container-custom-video:-ms-fullscreen video {
-  max-height: calc(100% - 50px);
-  max-width: 100%;
-  object-fit: contain;
-}
-
 .video-container-custom-video {
   display: flex;
   flex-direction: column;
@@ -199,6 +25,7 @@
 .video-container-custom-video:-webkit-full-screen video {
   height: calc(100% - 50px);
   width: auto;
+  object-fit: contain;
 }
 
 .video-container-custom-video:-moz-full-screen {
@@ -212,6 +39,7 @@
 .video-container-custom-video:-moz-full-screen video {
   height: calc(100% - 50px);
   width: auto;
+  object-fit: contain;
 }
 
 .video-container-custom-video:fullscreen {
@@ -225,6 +53,7 @@
 .video-container-custom-video:fullscreen video {
   height: calc(100% - 50px);
   width: auto;
+  object-fit: contain;
 }
 
 .video-container-custom-video:-ms-fullscreen {
@@ -238,4 +67,5 @@
 .video-container-custom-video:-ms-fullscreen video {
   height: calc(100% - 50px);
   width: auto;
+  object-fit: contain;
 }
