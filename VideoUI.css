@@ -11,8 +11,7 @@
 .video-container-custom-video video {
   width: 100%;
   object-fit: contain;
-  background-color: #202225;
-  opacity: 1;
+  opacity: 0;
 }
 
 .video-container-custom-video:-webkit-full-screen {
