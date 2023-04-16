@@ -76,3 +76,7 @@
   transform: translateY(99.999%);
   opacity: 0.001;
 }
+
+.custom-video-controls.non-fullscreen {
+  opacity: 0.001;
+}
