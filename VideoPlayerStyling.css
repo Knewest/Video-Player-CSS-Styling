@@ -74,6 +74,8 @@
 .controls-container {
   opacity: 0;
   transition: opacity 0.3s;
+  z-index: 2;
+  position: relative;
 }
 
 .controls-container.show-controls {
