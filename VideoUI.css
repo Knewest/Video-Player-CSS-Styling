@@ -73,6 +73,6 @@
 }
 
 .custom-video-controls.under-player {
-  transform: translateY(100%);
-  opacity: 3;
+  transform: translateY(99.999%);
+  opacity: 0.3;
 }
