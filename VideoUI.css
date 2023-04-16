@@ -73,5 +73,5 @@
 }
 
 .custom-video-controls.hidden-controls {
-  visibility: hidden;
+  opacity: 0.01;
 }
