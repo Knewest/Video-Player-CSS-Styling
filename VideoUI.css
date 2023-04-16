@@ -69,12 +69,3 @@
   width: auto;
   object-fit: contain;
 }
-
-.controls-container {
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.controls-container.show-controls {
-  opacity: 1;
-}
