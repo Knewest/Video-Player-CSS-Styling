@@ -71,3 +71,8 @@
   width: auto;
   object-fit: contain;
 }
+
+.controls-container.custom-video-controls.fade-out {
+  opacity: 0.3;
+  transition: opacity 1s ease;
+}
