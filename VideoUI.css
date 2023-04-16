@@ -25,7 +25,7 @@
 }
 
 .video-container-custom-video:-webkit-full-screen video {
-  height: calc(100% - 50px);
+  height: calc(100% - 30px);
   width: auto;
   object-fit: contain;
 }
@@ -39,7 +39,7 @@
 }
 
 .video-container-custom-video:-moz-full-screen video {
-  height: calc(100% - 50px);
+  height: calc(100% - 30px);
   width: auto;
   object-fit: contain;
 }
@@ -53,7 +53,7 @@
 }
 
 .video-container-custom-video:fullscreen video {
-  height: calc(100% - 50px);
+  height: calc(100% - 30px);
   width: auto;
   object-fit: contain;
 }
@@ -67,7 +67,7 @@
 }
 
 .video-container-custom-video:-ms-fullscreen video {
-  height: calc(100% - 50px);
+  height: calc(100% - 30px);
   width: auto;
   object-fit: contain;
 }
