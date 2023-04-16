@@ -72,6 +72,6 @@
   object-fit: contain;
 }
 
-.controls-container.custom-video-controls.hidden-controls {
-  opacity: 0;
+.custom-video-controls.hidden-controls {
+  visibility: hidden;
 }
