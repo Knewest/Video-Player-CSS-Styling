@@ -74,5 +74,5 @@
 
 .custom-video-controls.under-player {
   transform: translateY(99.999%);
-  opacity: 0.3;
+  opacity: 0.001;
 }
