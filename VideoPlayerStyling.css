@@ -143,9 +143,9 @@
 }
 
 .video-container-custom-video:fullscreen video {
+  width: 100%;
   height: 100%;
-  width: auto;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .video-container-custom-video:fullscreen .custom-video-controls {
