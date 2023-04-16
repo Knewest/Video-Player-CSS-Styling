@@ -72,12 +72,7 @@
   object-fit: contain;
 }
 
-.custom-video-controls.show-controls {
-  visibility: visible;
-  transition: visibility 0.5s;
-}
-
-.custom-video-controls.hidden-controls {
-  visibility: hidden;
-  transition: visibility 0.5s;
+.custom-video-controls.under-player {
+  transform: translateY(100%);
+  opacity: 3;
 }
