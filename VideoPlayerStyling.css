@@ -160,3 +160,17 @@
   position: fixed;
   bottom: 0;
 }
+
+:fullscreen .video-container-custom-video,
+:-webkit-full-screen .video-container-custom-video,
+:-moz-full-screen .video-container-custom-video,
+:-ms-fullscreen .video-container-custom-video {
+  border-radius: 0;
+}
+
+:fullscreen .video-container-custom-video video,
+:-webkit-full-screen .video-container-custom-video video,
+:-moz-full-screen .video-container-custom-video video,
+:-ms-fullscreen .video-container-custom-video video {
+  border-radius: 0;
+}
