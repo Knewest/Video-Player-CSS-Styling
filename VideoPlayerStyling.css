@@ -60,31 +60,6 @@
   width: 80px;
 }
 
-.controls-container .volume-slider {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 4px;
-  height: 80px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s;
-}
-
-.controls-container .volume-slider.show-volume-slider {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.controls-container .volume-slider::-webkit-slider-thumb {
-  margin-left: -4px;
-}
-
-.controls-container .volume-slider::-moz-range-thumb {
-  margin-left: -4px;
-}
-
 .download-button {
   text-decoration: none;
   color: #dcddde;
