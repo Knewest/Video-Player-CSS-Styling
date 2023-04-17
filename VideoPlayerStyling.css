@@ -117,6 +117,7 @@
 
 .video-container-custom-video:hover .custom-video-controls {
   opacity: 1;
+  transition: opacity 0.5s;
 }
 
 /* Fullscreen styles */
@@ -129,6 +130,13 @@
 .video-container-custom-video:-webkit-full-screen .custom-video-controls {
   position: fixed;
   bottom: 0;
+  opacity: 0.001;
+  transition: opacity 0.5s;
+}
+
+.video-container-custom-video:-webkit-full-screen:hover .custom-video-controls {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .video-container-custom-video:-moz-full-screen video {
