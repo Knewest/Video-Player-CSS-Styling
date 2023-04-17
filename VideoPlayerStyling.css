@@ -1,8 +1,10 @@
 .controls-container {
   opacity: 0;
-  transition: opacity 0.3s, transform 0.5s;
+  transition: opacity 0.3s, bottom 0.5s;
   z-index: 2;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .controls-container.non-fullscreen {
