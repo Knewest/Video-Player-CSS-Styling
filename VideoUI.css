@@ -122,3 +122,19 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+.current-time {
+    color: #ffffff;
+    font-family: Consolas;
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+.duration {
+    color: #ffffff;
+    font-family: Consolas;
+    font-weight: 500;
+    line-height: 12px;
+    font-size: 12px;
+}
