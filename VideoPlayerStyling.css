@@ -83,7 +83,7 @@
 }
 
 .video-container-custom-video {
-  position: relative;
+  position: contain;
   max-width: 100%; 
   width: 550px; 
   height: auto;
@@ -92,8 +92,10 @@
 }
 
 .video-container-custom-video video {
-  width: 100%;
+  width: auto;
   height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   border-radius: 8px; 
 }
@@ -142,7 +144,7 @@
 .video-container-custom-video:fullscreen video {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .video-container-custom-video:fullscreen .custom-video-controls {
