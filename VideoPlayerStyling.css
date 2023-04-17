@@ -88,14 +88,14 @@
   width: 550px; 
   height: auto;
   overflow: hidden;
-  border-radius: 12px; 
+  border-radius: 8px; 
 }
 
 .video-container-custom-video video {
   width: 100%;
   height: auto;
   object-fit: contain;
-  border-radius: 12px; 
+  border-radius: 8px; 
 }
 
 .custom-video-controls {
