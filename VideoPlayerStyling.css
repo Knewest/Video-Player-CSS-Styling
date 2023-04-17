@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.controls-container.non-fullscreen {
-  z-index: -1;
-}
-
 .controls-container button,
 .controls-container input[type="range"],
 .controls-container span {
