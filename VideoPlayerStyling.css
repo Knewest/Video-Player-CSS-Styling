@@ -1,10 +1,12 @@
 .controls-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(47, 49, 54, 0.95);
-  padding: 8px 12px;
-  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.5s;
+  z-index: 2;
+  position: relative;
+}
+
+.controls-container.non-fullscreen {
+  z-index: -1;
 }
 
 .controls-container button,
