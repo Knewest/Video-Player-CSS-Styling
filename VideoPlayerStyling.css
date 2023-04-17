@@ -160,3 +160,11 @@
   position: fixed;
   bottom: 0;
 }
+
+.video-container-custom-video:fullscreen {
+  border-radius: 0;
+}
+
+.video-container-custom-video:fullscreen video {
+  border-radius: 0;
+}
