@@ -116,7 +116,7 @@
 }
 
 .video-container-custom-video:hover .custom-video-controls {
-  opacity: 0.001;
+  opacity: 1;
   bottom: 3px;
 }
 
