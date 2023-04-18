@@ -140,3 +140,10 @@
     font-size: 12px;
     white-space: nowrap;
 }
+
+.video-placeholder {
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
