@@ -72,6 +72,7 @@
 .custom-video-controls.under-player {
   transform: translateY(99.999%);
   opacity: 0.001;
+  position: relative;
 }
 
 .custom-video-controls.non-fullscreen {
@@ -145,3 +146,7 @@
     background-color: #000000;
     z-index:-1;
 }
+
+  .hide-cursor {
+    cursor: none;
+  }
