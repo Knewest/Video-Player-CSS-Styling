@@ -4,7 +4,7 @@
   z-index: 2;
   position: absolute;
   bottom: 0;
-  height: 27px;
+  height: 24px;
   width: 100%;
   bottom: 3px;
 }
@@ -44,7 +44,7 @@
   width: 12px;
   height: 12px;
   background-color: #7289da;
-  border-radius: 50%;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -86,7 +86,7 @@
 .video-container-custom-video {
   position: contain;
   max-width: 100%; 
-  width: 550px; 
+  width: 495px; 
   height: auto;
   overflow: hidden;
   border-radius: 8px; 
@@ -103,7 +103,6 @@
 
 .custom-video-controls {
   position: absolute;
-  bottom: 3px;
   left: 0;
   right: 0;
   display: flex;
@@ -117,7 +116,6 @@
 
 .video-container-custom-video:hover .custom-video-controls {
   opacity: 1;
-  bottom: 3px;
 }
 
 /* Fullscreen styles */
