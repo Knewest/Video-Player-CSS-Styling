@@ -129,6 +129,7 @@
     font-weight: 500;
     line-height: 12px;
     font-size: 12px;
+    white-space: nowrap;
 }
 
 .duration {
@@ -137,4 +138,5 @@
     font-weight: 500;
     line-height: 12px;
     font-size: 12px;
+    white-space: nowrap;
 }
