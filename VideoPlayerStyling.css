@@ -103,7 +103,7 @@
 
 .custom-video-controls {
   position: absolute;
-  bottom: 3px;
+  bottom: 0px;
   left: 0;
   right: 0;
   display: flex;
