@@ -3,10 +3,9 @@
   transition: opacity 0.3s, bottom 0.5s;
   z-index: 2;
   position: absolute;
-  bottom: 0;
   height: 27px;
   width: 100%;
-  bottom: 3px;
+  bottom: 0px;
 }
 
 .controls-container button,
