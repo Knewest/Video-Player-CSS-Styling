@@ -1,8 +1,8 @@
 .video-container-custom-video {
   position: relative;
   max-width: 100%; 
-  width: 550px; 
-  height: auto;
+  width: 495px; 
+  height: 278px;
   overflow: hidden;
 }
 
