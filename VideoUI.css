@@ -72,7 +72,7 @@
 .custom-video-controls.under-player {
   transform: translateY(99.999%);
   opacity: 0.001;
-  position: relative;
+  position: absolute;
 }
 
 .custom-video-controls.non-fullscreen {
