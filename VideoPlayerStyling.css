@@ -43,7 +43,8 @@
   width: 12px;
   height: 12px;
   background-color: #7289da;
-  border-radius: 50%;
+  border-radius: 8px;
+  overflow: hidden;
   cursor: pointer;
 }
 
