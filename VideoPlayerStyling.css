@@ -113,11 +113,12 @@
   background-color: rgba(0, 0, 0, 0.7);
   gap: 8px;
   transition: transform 0.5s, opacity 0.5s;
+  overflow: hidden;
 }
 
 .video-container-custom-video:hover .custom-video-controls {
   opacity: 1;
-  bottom: 3px;
+  bottom: 0px;
 }
 
 /* Fullscreen styles */
