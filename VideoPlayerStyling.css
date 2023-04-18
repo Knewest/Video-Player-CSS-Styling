@@ -4,6 +4,7 @@
   z-index: 2;
   position: absolute;
   bottom: 0;
+  height: 28px;
   width: 100%;
 }
 
@@ -29,10 +30,10 @@
 .controls-container .time-slider,
 .controls-container .volume-slider {
   width: 100%;
-  height: 4px;
+  height: 6px;
   background-color: #72767d;
   outline: none;
-  border-radius: 5px;
+  margin: 0 6px;
   -webkit-appearance: none;
 }
 
