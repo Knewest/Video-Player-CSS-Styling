@@ -103,7 +103,7 @@
 
 .custom-video-controls {
   position: absolute;
-  bottom: 0;
+  bottom: 3px;
   left: 0;
   right: 0;
   display: flex;
@@ -116,7 +116,8 @@
 }
 
 .video-container-custom-video:hover .custom-video-controls {
-  opacity: 1;
+  opacity: 0.001;
+  bottom: 3px;
 }
 
 /* Fullscreen styles */
