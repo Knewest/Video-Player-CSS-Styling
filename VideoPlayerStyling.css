@@ -1,5 +1,5 @@
 .controls-container {
-  opacity: 0;
+  opacity: 0.001;
   transition: opacity 0.3s, bottom 0.5s;
   z-index: 2;
   position: absolute;
